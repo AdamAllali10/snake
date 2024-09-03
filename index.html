@@ -1,26 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv=" X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snake</title>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" type="text/javascript" defer></script>
-</head>
-<body>  
-  <div id="board"></div>
-  <div class="boardInfo">
-    <div>
-        Score: <div id="scoreBoard"></div>
+  </head>
+  <body>
+    <div id="board"></div>
+    <div class="boardInfo">
+      <div>
+        Score:
+        <div id="scoreBoard"></div>
+      </div>
+      <button id="start">Start</button>
     </div>
-<button id="start">Start</button>
-   </div>
-   <div id="gameOver">Game Over</div>
+    <div id="gameOver">Game Over</div>
+    <div class="controls">
+      <button id="upButton">
+        <svg
+          class="w-6 h-6 text-gray-800 dark:text-white"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m5 15 7-7 7 7"
+          />
+        </svg>
+      </button>
+      <div>
+        <button id="leftButton">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m15 19-7-7 7-7"
+            />
+          </svg>
+        </button>
+        <button id="downButton">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m19 9-7 7-7-7"
+            />
+          </svg>
+        </button>
+        <button id="rightButton">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m9 5 7 7-7 7"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
 
-
-   <div> Free Palestina !!</div>
-</body>
-
+    <footer>Akram tu no sabes hacer este mega juego disfrutalo</footer>
+  </body>
 </html>
